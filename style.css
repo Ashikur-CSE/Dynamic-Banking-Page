@@ -40,8 +40,9 @@ background-color: hotpink;
 
 }
 .t-status{
-    margin: 40px;
+    margin: 10px 50px;
     box-shadow: 4px 4px 10px gray;
     padding: 40px;
     border-radius: 10px;
+    
 }
