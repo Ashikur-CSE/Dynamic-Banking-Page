@@ -1,0 +1,47 @@
+.heading{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.form-area{
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+.in-form{
+    padding: 10px 30px;
+}
+.btn{
+    background-color: coral;
+    color: black;
+}
+#trans-area{
+    display: none;
+    box-sizing: border-box;
+
+}
+
+.Deposit{
+background-color: darkgreen;
+}
+
+.Withdraw{
+background-color: darkviolet;
+}
+.Balance{
+background-color: hotpink;
+}
+.status{
+    margin: 100px 60px;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;   
+
+}
+.t-status{
+    margin: 40px;
+    box-shadow: 4px 4px 10px gray;
+    padding: 40px;
+    border-radius: 10px;
+}
