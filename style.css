@@ -23,14 +23,14 @@
 }
 
 .Deposit{
-background-color: darkgreen;
+background-color: rgb(12, 70, 127);
 }
 
 .Withdraw{
-background-color: darkviolet;
+background-color: rgb(80, 8, 111);
 }
 .Balance{
-background-color: hotpink;
+background-color: rgb(132, 15, 73);
 }
 .status{
     margin: 100px 60px;
@@ -44,5 +44,6 @@ background-color: hotpink;
     box-shadow: 4px 4px 10px gray;
     padding: 40px;
     border-radius: 10px;
+    background-color: snow;
     
 }
