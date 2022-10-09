@@ -12,50 +12,54 @@
 </head>
 
 <body>
-    <div class="home-page" id="login-area">
+    <div class="home-page " id="login-area">
         <h1 class="heading">Welcome To Our Bank</h1>
-        <div class="form-area shadow p-3 mb-5 bg-body">
-            <form class="in-form">
-                <div class="mb-3">
-                    <h3 class="fw-bold m-3">Login</h3>
-
-                    <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Email">
-
-                </div>
-                <div class="mb-3">
-
-                    <input type="current-password" class="form-control m-2" id="exampleInputPassword1"
-                        placeholder="Password">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-
-            </form>
-            <button id="enter" type="submit" class="btn btn-success">Enter</button>
+        <div class="row">
+            <div class="form-area shadow p-3 mb-5 bg-body col-10 col-sm-2 col-d-6">
+                <form class="in-form">
+                    <div class="mb-3">
+                        <h3 class="fw-bold m-3">Login</h3>
+    
+                        <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Email">
+    
+                    </div>
+                    <div class="mb-3">
+    
+                        <input type="current-password" class="form-control m-2" id="exampleInputPassword1"
+                            placeholder="Password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+    
+                </form>
+                <button id="enter" type="submit" class="btn btn-success col-sm-1 col-2">Enter</button>
+    
+            </div>
 
         </div>
+     
     </div>
     <div id="trans-area">
         <div>
             <div class="row">
-                <div class="col-4 ">
+                <div class="col-8 col-sm-4">
                     <div class="Deposit status">
                         <h5>Deposit</h5>
                         <h1>$ <span id="currentAmount">00</span></h2>
                     </div>
 
                 </div>
-                <div class="col-4 ">
+                <div class="col-8 col-sm-4">
                     <div class="Withdraw status">
                         <h5>Withdraw</h5>
                         <h1>$ <span id="currentWithdraw">00</span></h2>
                     </div>
 
                 </div>
-                <div class="col-4 ">
+                <div class="col-8 col-sm-4">
                     <div class="Balance status">
                         <h5>Balance</h5>
                         <h1>$ <span id="balanceAmount">1500</span></h2>
@@ -68,7 +72,7 @@
         <div id="main-area">
             <div>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-sm-6">
                         <div class="t-status">
                            <h3 class="m-3">Deposit</h3>
                            <input type="text" class="form-control m-3" id="depositAmount" aria-describedby="emailHelp"
@@ -79,7 +83,7 @@
                         </div>
 
                     </div>
-                    <div class="col-6 ">
+                    <div class="col-12 col-sm-6">
                         <div class="t-status">
                             <h3 class="m-3">Withdraw</h3>
                             <input type="text" class="form-control m-3" id="withdrawAmount" aria-describedby="emailHelp"
